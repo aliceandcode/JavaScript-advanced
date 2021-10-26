@@ -1,0 +1,32 @@
+input {
+    width: 200px;
+    padding: 5px 10px;
+    margin: 10px 0;
+}
+input:focus{
+    outline: none;
+}
+button{
+    height: 35px;
+    width: 130px;
+    border: 3px solid #b2ae93;
+    background-color: transparent;
+    border-radius: 20vh;
+    color: #fff;
+    text-align: center;
+    margin: 10px 20px;
+    color: #b2ae93;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.error-msg{
+    color: rgb(236, 117, 117);
+    margin: 10px 0;
+}
+.invalid{
+    border: 2px solid red;
+}
+.valid{
+    border: 2px solid #b2ae93;
+}
